@@ -1,4 +1,4 @@
-package org.example;
+package org.mouakkal;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
@@ -10,7 +10,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 public class App {
     public static final String TABLE_NAME = "student";
-    public static final String CF_PERSONAL_DATA = " info";
+    public static final String CF_PERSONAL_DATA = "info";
     public static final String CF_PRO_DATA = "grades";
 
     public static void display(Result result) {
@@ -58,7 +58,7 @@ public class App {
             Put put = new Put(Bytes.toBytes("1"));
             put.addColumn(Bytes.toBytes(CF_PERSONAL_DATA), Bytes.toBytes("name"), Bytes.toBytes("John Doe"));
             put.addColumn(Bytes.toBytes(CF_PERSONAL_DATA), Bytes.toBytes("age"), Bytes.toBytes("20"));
-            put.addColumn(Bytes.toBytes(CF_PRO_DATA), Bytes.toBytes("grades"), Bytes.toBytes("math B, science A"));
+            put.addColumn(Bytes.toBytes(CF_PRO_DATA), Bytes.toBytes("grades"), Bytes.toBytes("math B,science A"));
             table.put(put);
             System.out.println("Added !");
 

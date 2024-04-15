@@ -1,23 +1,25 @@
-# API-Java-for-HBASE
+Using the Java API to Manage HBase:
+Explore a robust Java API in this repository designed for seamless interaction with HBase, a distributed NoSQL database. Simplify your HBase tasks and enhance development efficiency with this user-friendly Java library.
 
-This repository provides a comprehensive Java API for interacting with HBase, a distributed NoSQL database. Simplify HBase operations and streamline development with this intuitive Java library.
+### Summary:
+Included in this repository are essential components for your setup:
 
-## Overview
+- Dockerfile
+- docker-compose.yml
+- App.java: Equipped with functions for:
+   - Table creation
+   - Data insertion
+   - Table updates
+   - Data deletion
 
-### What you should create:
-1. `Dockerfile` 
-2. `docker-compose.yml`
-3. `App.java`: Includes functionality for:
-   - Creating tables
-   - Inserting data
-   - Updating tables
-   - Deleting data
+### Running the Application:
+Follow these steps to execute the application successfully:
 
-### How to run the app:
-1. Install required packages
-2. Build Docker images: `docker-compose build`
-3. Start containers: `docker-compose up`
+1. Install necessary packages.
+2. Build Docker images: Execute `docker-compose build`.
+3. Launch containers: Run `docker-compose up`.
 
-## Results
+### Outcome:
+Experience a sample output showcasing the seamless integration of Java and HBase.
 
-![Sample Output](https://github.com/kawtar-collab/API-Java-for-HBASE/assets/126341572/7616bdff-bd22-4c8c-bf60-e24e7820b389)
+![Sample Output](output.jpg)
