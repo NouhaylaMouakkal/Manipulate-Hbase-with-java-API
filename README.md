@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-### Manipulate-Hbase-with-java-API
+# Manipulate-Hbase-with-java-API
 
 Using the Java API to Manage HBase:
 Explore a robust Java API in this repository designed for seamless interaction with HBase, a distributed NoSQL database. Simplify your HBase tasks and enhance development efficiency with this user-friendly Java library.
