@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Manipulate-Hbase-with-java-API
 
 Using the Java API to Manage HBase:
@@ -25,3 +26,6 @@ Follow these steps to execute the application successfully:
 Experience a sample output showcasing the seamless integration of Java and HBase.
 
 ![Sample Output](output.jpg)
+=======
+# Manipulate-Hbase-with-java-API
+>>>>>>> 49aecfb1da11b13e6e4c16a2d36dc4959d609493
